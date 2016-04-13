@@ -3,8 +3,9 @@
     <blacklist>
       <directory suffix=".php">Plugin</directory>
       <directory suffix=".php">Test</directory>
-      <directory suffix=".php">Vendor</directory>
-	  <directory suffix=".php">Config/bootstrap</directory>
+      <directory suffix=".php">Vendor</directory> 
+      <directory suffix=".php">Config/bootstrap</directory>
+	  <file>Config/database.php</file>
     </blacklist>
   </filter>
 </phpunit>
